@@ -1,0 +1,116 @@
+Testsuite: prode.RoleControllerTests
+Tests run: 8, Failures: 5, Errors: 0, Time elapsed: 0,637 sec
+------------- Standard Output ---------------
+--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+------------- ---------------- ---------------
+
+Testcase: testIndex took 0,199 sec
+Testcase: testList took 0,046 sec
+Testcase: testCreate took 0,059 sec
+Testcase: testSave took 0,056 sec
+	FAILED
+Assertion failed: 
+
+assert response.redirectedUrl == '/role/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@4ab24098
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == '/role/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@4ab24098
+
+	at prode.RoleControllerTests.testSave(RoleControllerTests.groovy:48)
+
+Testcase: testShow took 0,043 sec
+	FAILED
+Assertion failed: 
+
+assert role.save() != null
+       |    |      |
+       |    null   false
+       prode.Role@4bbc7636 (toString() == null)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert role.save() != null
+       |    |      |
+       |    null   false
+       prode.Role@4bbc7636 (toString() == null)
+
+	at prode.RoleControllerTests.testShow(RoleControllerTests.groovy:62)
+
+Testcase: testEdit took 0,044 sec
+	FAILED
+Assertion failed: 
+
+assert role.save() != null
+       |    |      |
+       |    null   false
+       prode.Role@11def881 (toString() == null)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert role.save() != null
+       |    |      |
+       |    null   false
+       prode.Role@11def881 (toString() == null)
+
+	at prode.RoleControllerTests.testEdit(RoleControllerTests.groovy:80)
+
+Testcase: testUpdate took 0,047 sec
+	FAILED
+Assertion failed: 
+
+assert role.save() != null
+       |    |      |
+       |    null   false
+       prode.Role@3e019dc4 (toString() == null)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert role.save() != null
+       |    |      |
+       |    null   false
+       prode.Role@3e019dc4 (toString() == null)
+
+	at prode.RoleControllerTests.testUpdate(RoleControllerTests.groovy:100)
+
+Testcase: testDelete took 0,065 sec
+	FAILED
+Assertion failed: 
+
+assert role.save() != null
+       |    |      |
+       |    null   false
+       prode.Role@57b324dd (toString() == null)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert role.save() != null
+       |    |      |
+       |    null   false
+       prode.Role@57b324dd (toString() == null)
+
+	at prode.RoleControllerTests.testDelete(RoleControllerTests.groovy:144)
+

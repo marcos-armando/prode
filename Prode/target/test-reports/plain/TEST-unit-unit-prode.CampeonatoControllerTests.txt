@@ -1,0 +1,116 @@
+Testsuite: prode.CampeonatoControllerTests
+Tests run: 8, Failures: 5, Errors: 0, Time elapsed: 1,675 sec
+------------- Standard Output ---------------
+--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+------------- ---------------- ---------------
+
+Testcase: testIndex took 0,438 sec
+Testcase: testList took 0,501 sec
+Testcase: testCreate took 0,157 sec
+Testcase: testSave took 0,134 sec
+	FAILED
+Assertion failed: 
+
+assert response.redirectedUrl == '/campeonato/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@51de6ff8
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == '/campeonato/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@51de6ff8
+
+	at prode.CampeonatoControllerTests.testSave(CampeonatoControllerTests.groovy:48)
+
+Testcase: testShow took 0,144 sec
+	FAILED
+Assertion failed: 
+
+assert campeonato.save() != null
+       |          |      |
+       |          null   false
+       prode.Campeonato@6f479e5f (toString() == null)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert campeonato.save() != null
+       |          |      |
+       |          null   false
+       prode.Campeonato@6f479e5f (toString() == null)
+
+	at prode.CampeonatoControllerTests.testShow(CampeonatoControllerTests.groovy:62)
+
+Testcase: testEdit took 0,074 sec
+	FAILED
+Assertion failed: 
+
+assert campeonato.save() != null
+       |          |      |
+       |          null   false
+       prode.Campeonato@246b5488 (toString() == null)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert campeonato.save() != null
+       |          |      |
+       |          null   false
+       prode.Campeonato@246b5488 (toString() == null)
+
+	at prode.CampeonatoControllerTests.testEdit(CampeonatoControllerTests.groovy:80)
+
+Testcase: testUpdate took 0,062 sec
+	FAILED
+Assertion failed: 
+
+assert campeonato.save() != null
+       |          |      |
+       |          null   false
+       prode.Campeonato@2e8f01b8 (toString() == null)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert campeonato.save() != null
+       |          |      |
+       |          null   false
+       prode.Campeonato@2e8f01b8 (toString() == null)
+
+	at prode.CampeonatoControllerTests.testUpdate(CampeonatoControllerTests.groovy:100)
+
+Testcase: testDelete took 0,083 sec
+	FAILED
+Assertion failed: 
+
+assert campeonato.save() != null
+       |          |      |
+       |          null   false
+       prode.Campeonato@78e64a7f (toString() == null)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert campeonato.save() != null
+       |          |      |
+       |          null   false
+       prode.Campeonato@78e64a7f (toString() == null)
+
+	at prode.CampeonatoControllerTests.testDelete(CampeonatoControllerTests.groovy:144)
+

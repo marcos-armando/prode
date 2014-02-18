@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="5" hostname="Marcos-Armando.local" name="prode.RoleControllerTests" tests="8" time="0.637" timestamp="2013-07-29T23:40:28">
+  <properties />
+  <testcase classname="prode.RoleControllerTests" name="testIndex" time="0.199" />
+  <testcase classname="prode.RoleControllerTests" name="testList" time="0.046" />
+  <testcase classname="prode.RoleControllerTests" name="testCreate" time="0.059" />
+  <testcase classname="prode.RoleControllerTests" name="testSave" time="0.056">
+    <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/role/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@4ab24098&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/role/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@4ab24098
+
+	at prode.RoleControllerTests.testSave(RoleControllerTests.groovy:48)
+</failure>
+  </testcase>
+  <testcase classname="prode.RoleControllerTests" name="testShow" time="0.043">
+    <failure message="Assertion failed: &#xa;&#xa;assert role.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       prode.Role@4bbc7636 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert role.save() != null
+       |    |      |
+       |    null   false
+       prode.Role@4bbc7636 (toString() == null)
+
+	at prode.RoleControllerTests.testShow(RoleControllerTests.groovy:62)
+</failure>
+  </testcase>
+  <testcase classname="prode.RoleControllerTests" name="testEdit" time="0.044">
+    <failure message="Assertion failed: &#xa;&#xa;assert role.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       prode.Role@11def881 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert role.save() != null
+       |    |      |
+       |    null   false
+       prode.Role@11def881 (toString() == null)
+
+	at prode.RoleControllerTests.testEdit(RoleControllerTests.groovy:80)
+</failure>
+  </testcase>
+  <testcase classname="prode.RoleControllerTests" name="testUpdate" time="0.047">
+    <failure message="Assertion failed: &#xa;&#xa;assert role.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       prode.Role@3e019dc4 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert role.save() != null
+       |    |      |
+       |    null   false
+       prode.Role@3e019dc4 (toString() == null)
+
+	at prode.RoleControllerTests.testUpdate(RoleControllerTests.groovy:100)
+</failure>
+  </testcase>
+  <testcase classname="prode.RoleControllerTests" name="testDelete" time="0.065">
+    <failure message="Assertion failed: &#xa;&#xa;assert role.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       prode.Role@57b324dd (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert role.save() != null
+       |    |      |
+       |    null   false
+       prode.Role@57b324dd (toString() == null)
+
+	at prode.RoleControllerTests.testDelete(RoleControllerTests.groovy:144)
+</failure>
+  </testcase>
+  <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+  <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+</testsuite>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="5" hostname="Marcos-Armando.local" name="prode.EstadioControllerTests" tests="8" time="0.794" timestamp="2013-07-29T23:40:25">
+  <properties />
+  <testcase classname="prode.EstadioControllerTests" name="testIndex" time="0.228" />
+  <testcase classname="prode.EstadioControllerTests" name="testList" time="0.052" />
+  <testcase classname="prode.EstadioControllerTests" name="testCreate" time="0.081" />
+  <testcase classname="prode.EstadioControllerTests" name="testSave" time="0.07">
+    <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/estadio/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@60aab59f&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/estadio/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@60aab59f
+
+	at prode.EstadioControllerTests.testSave(EstadioControllerTests.groovy:48)
+</failure>
+  </testcase>
+  <testcase classname="prode.EstadioControllerTests" name="testShow" time="0.089">
+    <failure message="Assertion failed: &#xa;&#xa;assert estadio.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       prode.Estadio@7b5321f0 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert estadio.save() != null
+       |       |      |
+       |       null   false
+       prode.Estadio@7b5321f0 (toString() == null)
+
+	at prode.EstadioControllerTests.testShow(EstadioControllerTests.groovy:62)
+</failure>
+  </testcase>
+  <testcase classname="prode.EstadioControllerTests" name="testEdit" time="0.088">
+    <failure message="Assertion failed: &#xa;&#xa;assert estadio.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       prode.Estadio@5790d004 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert estadio.save() != null
+       |       |      |
+       |       null   false
+       prode.Estadio@5790d004 (toString() == null)
+
+	at prode.EstadioControllerTests.testEdit(EstadioControllerTests.groovy:80)
+</failure>
+  </testcase>
+  <testcase classname="prode.EstadioControllerTests" name="testUpdate" time="0.064">
+    <failure message="Assertion failed: &#xa;&#xa;assert estadio.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       prode.Estadio@b6a6597 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert estadio.save() != null
+       |       |      |
+       |       null   false
+       prode.Estadio@b6a6597 (toString() == null)
+
+	at prode.EstadioControllerTests.testUpdate(EstadioControllerTests.groovy:100)
+</failure>
+  </testcase>
+  <testcase classname="prode.EstadioControllerTests" name="testDelete" time="0.06">
+    <failure message="Assertion failed: &#xa;&#xa;assert estadio.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       prode.Estadio@48778a5d (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert estadio.save() != null
+       |       |      |
+       |       null   false
+       prode.Estadio@48778a5d (toString() == null)
+
+	at prode.EstadioControllerTests.testDelete(EstadioControllerTests.groovy:144)
+</failure>
+  </testcase>
+  <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+  <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+</testsuite>

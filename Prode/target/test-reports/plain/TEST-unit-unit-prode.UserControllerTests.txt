@@ -1,0 +1,116 @@
+Testsuite: prode.UserControllerTests
+Tests run: 8, Failures: 5, Errors: 0, Time elapsed: 0,546 sec
+------------- Standard Output ---------------
+--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+------------- ---------------- ---------------
+
+Testcase: testIndex took 0,173 sec
+Testcase: testList took 0,039 sec
+Testcase: testCreate took 0,067 sec
+Testcase: testSave took 0,059 sec
+	FAILED
+Assertion failed: 
+
+assert response.redirectedUrl == '/user/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@6a969e08
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == '/user/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@6a969e08
+
+	at prode.UserControllerTests.testSave(UserControllerTests.groovy:48)
+
+Testcase: testShow took 0,055 sec
+	FAILED
+Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       prode.User@18ff8acd (toString() == null)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       prode.User@18ff8acd (toString() == null)
+
+	at prode.UserControllerTests.testShow(UserControllerTests.groovy:62)
+
+Testcase: testEdit took 0,042 sec
+	FAILED
+Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       prode.User@35203c7f (toString() == null)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       prode.User@35203c7f (toString() == null)
+
+	at prode.UserControllerTests.testEdit(UserControllerTests.groovy:80)
+
+Testcase: testUpdate took 0,045 sec
+	FAILED
+Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       prode.User@7b0aab7d (toString() == null)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       prode.User@7b0aab7d (toString() == null)
+
+	at prode.UserControllerTests.testUpdate(UserControllerTests.groovy:100)
+
+Testcase: testDelete took 0,051 sec
+	FAILED
+Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       prode.User@1df07586 (toString() == null)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       prode.User@1df07586 (toString() == null)
+
+	at prode.UserControllerTests.testDelete(UserControllerTests.groovy:144)
+

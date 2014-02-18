@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="5" hostname="Marcos-Armando.local" name="prode.CampeonatoControllerTests" tests="8" time="1.675" timestamp="2013-07-29T23:40:22">
+  <properties />
+  <testcase classname="prode.CampeonatoControllerTests" name="testIndex" time="0.438" />
+  <testcase classname="prode.CampeonatoControllerTests" name="testList" time="0.501" />
+  <testcase classname="prode.CampeonatoControllerTests" name="testCreate" time="0.157" />
+  <testcase classname="prode.CampeonatoControllerTests" name="testSave" time="0.134">
+    <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/campeonato/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@51de6ff8&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/campeonato/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@51de6ff8
+
+	at prode.CampeonatoControllerTests.testSave(CampeonatoControllerTests.groovy:48)
+</failure>
+  </testcase>
+  <testcase classname="prode.CampeonatoControllerTests" name="testShow" time="0.144">
+    <failure message="Assertion failed: &#xa;&#xa;assert campeonato.save() != null&#xa;       |          |      |&#xa;       |          null   false&#xa;       prode.Campeonato@6f479e5f (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert campeonato.save() != null
+       |          |      |
+       |          null   false
+       prode.Campeonato@6f479e5f (toString() == null)
+
+	at prode.CampeonatoControllerTests.testShow(CampeonatoControllerTests.groovy:62)
+</failure>
+  </testcase>
+  <testcase classname="prode.CampeonatoControllerTests" name="testEdit" time="0.082">
+    <failure message="Assertion failed: &#xa;&#xa;assert campeonato.save() != null&#xa;       |          |      |&#xa;       |          null   false&#xa;       prode.Campeonato@246b5488 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert campeonato.save() != null
+       |          |      |
+       |          null   false
+       prode.Campeonato@246b5488 (toString() == null)
+
+	at prode.CampeonatoControllerTests.testEdit(CampeonatoControllerTests.groovy:80)
+</failure>
+  </testcase>
+  <testcase classname="prode.CampeonatoControllerTests" name="testUpdate" time="0.063">
+    <failure message="Assertion failed: &#xa;&#xa;assert campeonato.save() != null&#xa;       |          |      |&#xa;       |          null   false&#xa;       prode.Campeonato@2e8f01b8 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert campeonato.save() != null
+       |          |      |
+       |          null   false
+       prode.Campeonato@2e8f01b8 (toString() == null)
+
+	at prode.CampeonatoControllerTests.testUpdate(CampeonatoControllerTests.groovy:100)
+</failure>
+  </testcase>
+  <testcase classname="prode.CampeonatoControllerTests" name="testDelete" time="0.083">
+    <failure message="Assertion failed: &#xa;&#xa;assert campeonato.save() != null&#xa;       |          |      |&#xa;       |          null   false&#xa;       prode.Campeonato@78e64a7f (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert campeonato.save() != null
+       |          |      |
+       |          null   false
+       prode.Campeonato@78e64a7f (toString() == null)
+
+	at prode.CampeonatoControllerTests.testDelete(CampeonatoControllerTests.groovy:144)
+</failure>
+  </testcase>
+  <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+  <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+</testsuite>

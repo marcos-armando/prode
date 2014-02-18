@@ -1,0 +1,116 @@
+Testsuite: prode.FechaControllerTests
+Tests run: 8, Failures: 5, Errors: 0, Time elapsed: 0,604 sec
+------------- Standard Output ---------------
+--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+------------- ---------------- ---------------
+
+Testcase: testIndex took 0,142 sec
+Testcase: testList took 0,04 sec
+Testcase: testCreate took 0,049 sec
+Testcase: testSave took 0,047 sec
+	FAILED
+Assertion failed: 
+
+assert response.redirectedUrl == '/fecha/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@633b2b95
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == '/fecha/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@633b2b95
+
+	at prode.FechaControllerTests.testSave(FechaControllerTests.groovy:48)
+
+Testcase: testShow took 0,066 sec
+	FAILED
+Assertion failed: 
+
+assert fecha.save() != null
+       |     |      |
+       |     null   false
+       prode.Fecha@4dcc678a (toString() == null)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert fecha.save() != null
+       |     |      |
+       |     null   false
+       prode.Fecha@4dcc678a (toString() == null)
+
+	at prode.FechaControllerTests.testShow(FechaControllerTests.groovy:62)
+
+Testcase: testEdit took 0,055 sec
+	FAILED
+Assertion failed: 
+
+assert fecha.save() != null
+       |     |      |
+       |     null   false
+       prode.Fecha@72c25346 (toString() == null)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert fecha.save() != null
+       |     |      |
+       |     null   false
+       prode.Fecha@72c25346 (toString() == null)
+
+	at prode.FechaControllerTests.testEdit(FechaControllerTests.groovy:80)
+
+Testcase: testUpdate took 0,053 sec
+	FAILED
+Assertion failed: 
+
+assert fecha.save() != null
+       |     |      |
+       |     null   false
+       prode.Fecha@528095c6 (toString() == null)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert fecha.save() != null
+       |     |      |
+       |     null   false
+       prode.Fecha@528095c6 (toString() == null)
+
+	at prode.FechaControllerTests.testUpdate(FechaControllerTests.groovy:100)
+
+Testcase: testDelete took 0,089 sec
+	FAILED
+Assertion failed: 
+
+assert fecha.save() != null
+       |     |      |
+       |     null   false
+       prode.Fecha@3ebbe4b0 (toString() == null)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert fecha.save() != null
+       |     |      |
+       |     null   false
+       prode.Fecha@3ebbe4b0 (toString() == null)
+
+	at prode.FechaControllerTests.testDelete(FechaControllerTests.groovy:144)
+

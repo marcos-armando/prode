@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="5" hostname="Marcos-Armando.local" name="prode.FechaControllerTests" tests="8" time="0.604" timestamp="2013-07-29T23:40:26">
+  <properties />
+  <testcase classname="prode.FechaControllerTests" name="testIndex" time="0.142" />
+  <testcase classname="prode.FechaControllerTests" name="testList" time="0.04" />
+  <testcase classname="prode.FechaControllerTests" name="testCreate" time="0.049" />
+  <testcase classname="prode.FechaControllerTests" name="testSave" time="0.047">
+    <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/fecha/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@633b2b95&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/fecha/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@633b2b95
+
+	at prode.FechaControllerTests.testSave(FechaControllerTests.groovy:48)
+</failure>
+  </testcase>
+  <testcase classname="prode.FechaControllerTests" name="testShow" time="0.067">
+    <failure message="Assertion failed: &#xa;&#xa;assert fecha.save() != null&#xa;       |     |      |&#xa;       |     null   false&#xa;       prode.Fecha@4dcc678a (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert fecha.save() != null
+       |     |      |
+       |     null   false
+       prode.Fecha@4dcc678a (toString() == null)
+
+	at prode.FechaControllerTests.testShow(FechaControllerTests.groovy:62)
+</failure>
+  </testcase>
+  <testcase classname="prode.FechaControllerTests" name="testEdit" time="0.055">
+    <failure message="Assertion failed: &#xa;&#xa;assert fecha.save() != null&#xa;       |     |      |&#xa;       |     null   false&#xa;       prode.Fecha@72c25346 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert fecha.save() != null
+       |     |      |
+       |     null   false
+       prode.Fecha@72c25346 (toString() == null)
+
+	at prode.FechaControllerTests.testEdit(FechaControllerTests.groovy:80)
+</failure>
+  </testcase>
+  <testcase classname="prode.FechaControllerTests" name="testUpdate" time="0.053">
+    <failure message="Assertion failed: &#xa;&#xa;assert fecha.save() != null&#xa;       |     |      |&#xa;       |     null   false&#xa;       prode.Fecha@528095c6 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert fecha.save() != null
+       |     |      |
+       |     null   false
+       prode.Fecha@528095c6 (toString() == null)
+
+	at prode.FechaControllerTests.testUpdate(FechaControllerTests.groovy:100)
+</failure>
+  </testcase>
+  <testcase classname="prode.FechaControllerTests" name="testDelete" time="0.089">
+    <failure message="Assertion failed: &#xa;&#xa;assert fecha.save() != null&#xa;       |     |      |&#xa;       |     null   false&#xa;       prode.Fecha@3ebbe4b0 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert fecha.save() != null
+       |     |      |
+       |     null   false
+       prode.Fecha@3ebbe4b0 (toString() == null)
+
+	at prode.FechaControllerTests.testDelete(FechaControllerTests.groovy:144)
+</failure>
+  </testcase>
+  <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+  <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+</testsuite>

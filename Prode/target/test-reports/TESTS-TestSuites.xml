@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="1" hostname="Marcos-Armando.local" id="0" name="ApuestaControllerTests" package="prode" tests="1" time="1.283" timestamp="2013-07-29T23:40:20">
+      <properties />
+
+      <testcase classname="prode.ApuestaControllerTests" name="testSomething" time="1.076">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at prode.ApuestaControllerTests.testSomething(ApuestaControllerTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="Marcos-Armando.local" id="1" name="ApuestaTests" package="prode" tests="1" time="0.567" timestamp="2013-07-29T23:40:22">
+      <properties />
+
+      <testcase classname="prode.ApuestaTests" name="testSomething" time="0.487">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at prode.ApuestaTests.testSomething(ApuestaTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="5" hostname="Marcos-Armando.local" id="2" name="CampeonatoControllerTests" package="prode" tests="8" time="1.675" timestamp="2013-07-29T23:40:22">
+      <properties />
+
+      <testcase classname="prode.CampeonatoControllerTests" name="testIndex" time="0.438" />
+
+      <testcase classname="prode.CampeonatoControllerTests" name="testList" time="0.501" />
+
+      <testcase classname="prode.CampeonatoControllerTests" name="testCreate" time="0.157" />
+
+      <testcase classname="prode.CampeonatoControllerTests" name="testSave" time="0.134">
+          <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/campeonato/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@51de6ff8&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/campeonato/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@51de6ff8
+
+	at prode.CampeonatoControllerTests.testSave(CampeonatoControllerTests.groovy:48)
+</failure>
+
+      </testcase>
+
+      <testcase classname="prode.CampeonatoControllerTests" name="testShow" time="0.144">
+          <failure message="Assertion failed: &#xa;&#xa;assert campeonato.save() != null&#xa;       |          |      |&#xa;       |          null   false&#xa;       prode.Campeonato@6f479e5f (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert campeonato.save() != null
+       |          |      |
+       |          null   false
+       prode.Campeonato@6f479e5f (toString() == null)
+
+	at prode.CampeonatoControllerTests.testShow(CampeonatoControllerTests.groovy:62)
+</failure>
+
+      </testcase>
+
+      <testcase classname="prode.CampeonatoControllerTests" name="testEdit" time="0.082">
+          <failure message="Assertion failed: &#xa;&#xa;assert campeonato.save() != null&#xa;       |          |      |&#xa;       |          null   false&#xa;       prode.Campeonato@246b5488 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert campeonato.save() != null
+       |          |      |
+       |          null   false
+       prode.Campeonato@246b5488 (toString() == null)
+
+	at prode.CampeonatoControllerTests.testEdit(CampeonatoControllerTests.groovy:80)
+</failure>
+
+      </testcase>
+
+      <testcase classname="prode.CampeonatoControllerTests" name="testUpdate" time="0.063">
+          <failure message="Assertion failed: &#xa;&#xa;assert campeonato.save() != null&#xa;       |          |      |&#xa;       |          null   false&#xa;       prode.Campeonato@2e8f01b8 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert campeonato.save() != null
+       |          |      |
+       |          null   false
+       prode.Campeonato@2e8f01b8 (toString() == null)
+
+	at prode.CampeonatoControllerTests.testUpdate(CampeonatoControllerTests.groovy:100)
+</failure>
+
+      </testcase>
+
+      <testcase classname="prode.CampeonatoControllerTests" name="testDelete" time="0.083">
+          <failure message="Assertion failed: &#xa;&#xa;assert campeonato.save() != null&#xa;       |          |      |&#xa;       |          null   false&#xa;       prode.Campeonato@78e64a7f (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert campeonato.save() != null
+       |          |      |
+       |          null   false
+       prode.Campeonato@78e64a7f (toString() == null)
+
+	at prode.CampeonatoControllerTests.testDelete(CampeonatoControllerTests.groovy:144)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="Marcos-Armando.local" id="3" name="CampeonatoTests" package="prode" tests="1" time="0.12" timestamp="2013-07-29T23:40:24">
+      <properties />
+
+      <testcase classname="prode.CampeonatoTests" name="testSomething" time="0.034">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at prode.CampeonatoTests.testSomething(CampeonatoTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="5" hostname="Marcos-Armando.local" id="4" name="EquipoControllerTests" package="prode" tests="8" time="0.649" timestamp="2013-07-29T23:40:24">
+      <properties />
+
+      <testcase classname="prode.EquipoControllerTests" name="testIndex" time="0.2" />
+
+      <testcase classname="prode.EquipoControllerTests" name="testList" time="0.053" />
+
+      <testcase classname="prode.EquipoControllerTests" name="testCreate" time="0.041" />
+
+      <testcase classname="prode.EquipoControllerTests" name="testSave" time="0.057">
+          <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/equipo/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@5c9b027d&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/equipo/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@5c9b027d
+
+	at prode.EquipoControllerTests.testSave(EquipoControllerTests.groovy:48)
+</failure>
+
+      </testcase>
+
+      <testcase classname="prode.EquipoControllerTests" name="testShow" time="0.059">
+          <failure message="Assertion failed: &#xa;&#xa;assert equipo.save() != null&#xa;       |      |      |&#xa;       |      null   false&#xa;       prode.Equipo@36ba117b (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert equipo.save() != null
+       |      |      |
+       |      null   false
+       prode.Equipo@36ba117b (toString() == null)
+
+	at prode.EquipoControllerTests.testShow(EquipoControllerTests.groovy:62)
+</failure>
+
+      </testcase>
+
+      <testcase classname="prode.EquipoControllerTests" name="testEdit" time="0.051">
+          <failure message="Assertion failed: &#xa;&#xa;assert equipo.save() != null&#xa;       |      |      |&#xa;       |      null   false&#xa;       prode.Equipo@2e6ee035 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert equipo.save() != null
+       |      |      |
+       |      null   false
+       prode.Equipo@2e6ee035 (toString() == null)
+
+	at prode.EquipoControllerTests.testEdit(EquipoControllerTests.groovy:80)
+</failure>
+
+      </testcase>
+
+      <testcase classname="prode.EquipoControllerTests" name="testUpdate" time="0.068">
+          <failure message="Assertion failed: &#xa;&#xa;assert equipo.save() != null&#xa;       |      |      |&#xa;       |      null   false&#xa;       prode.Equipo@68a48d59 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert equipo.save() != null
+       |      |      |
+       |      null   false
+       prode.Equipo@68a48d59 (toString() == null)
+
+	at prode.EquipoControllerTests.testUpdate(EquipoControllerTests.groovy:100)
+</failure>
+
+      </testcase>
+
+      <testcase classname="prode.EquipoControllerTests" name="testDelete" time="0.047">
+          <failure message="Assertion failed: &#xa;&#xa;assert equipo.save() != null&#xa;       |      |      |&#xa;       |      null   false&#xa;       prode.Equipo@6d994bd3 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert equipo.save() != null
+       |      |      |
+       |      null   false
+       prode.Equipo@6d994bd3 (toString() == null)
+
+	at prode.EquipoControllerTests.testDelete(EquipoControllerTests.groovy:144)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="Marcos-Armando.local" id="5" name="EquipoTests" package="prode" tests="1" time="0.121" timestamp="2013-07-29T23:40:25">
+      <properties />
+
+      <testcase classname="prode.EquipoTests" name="testSomething" time="0.039">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at prode.EquipoTests.testSomething(EquipoTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="5" hostname="Marcos-Armando.local" id="6" name="EstadioControllerTests" package="prode" tests="8" time="0.794" timestamp="2013-07-29T23:40:25">
+      <properties />
+
+      <testcase classname="prode.EstadioControllerTests" name="testIndex" time="0.228" />
+
+      <testcase classname="prode.EstadioControllerTests" name="testList" time="0.052" />
+
+      <testcase classname="prode.EstadioControllerTests" name="testCreate" time="0.081" />
+
+      <testcase classname="prode.EstadioControllerTests" name="testSave" time="0.07">
+          <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/estadio/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@60aab59f&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/estadio/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@60aab59f
+
+	at prode.EstadioControllerTests.testSave(EstadioControllerTests.groovy:48)
+</failure>
+
+      </testcase>
+
+      <testcase classname="prode.EstadioControllerTests" name="testShow" time="0.089">
+          <failure message="Assertion failed: &#xa;&#xa;assert estadio.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       prode.Estadio@7b5321f0 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert estadio.save() != null
+       |       |      |
+       |       null   false
+       prode.Estadio@7b5321f0 (toString() == null)
+
+	at prode.EstadioControllerTests.testShow(EstadioControllerTests.groovy:62)
+</failure>
+
+      </testcase>
+
+      <testcase classname="prode.EstadioControllerTests" name="testEdit" time="0.088">
+          <failure message="Assertion failed: &#xa;&#xa;assert estadio.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       prode.Estadio@5790d004 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert estadio.save() != null
+       |       |      |
+       |       null   false
+       prode.Estadio@5790d004 (toString() == null)
+
+	at prode.EstadioControllerTests.testEdit(EstadioControllerTests.groovy:80)
+</failure>
+
+      </testcase>
+
+      <testcase classname="prode.EstadioControllerTests" name="testUpdate" time="0.064">
+          <failure message="Assertion failed: &#xa;&#xa;assert estadio.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       prode.Estadio@b6a6597 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert estadio.save() != null
+       |       |      |
+       |       null   false
+       prode.Estadio@b6a6597 (toString() == null)
+
+	at prode.EstadioControllerTests.testUpdate(EstadioControllerTests.groovy:100)
+</failure>
+
+      </testcase>
+
+      <testcase classname="prode.EstadioControllerTests" name="testDelete" time="0.06">
+          <failure message="Assertion failed: &#xa;&#xa;assert estadio.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       prode.Estadio@48778a5d (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert estadio.save() != null
+       |       |      |
+       |       null   false
+       prode.Estadio@48778a5d (toString() == null)
+
+	at prode.EstadioControllerTests.testDelete(EstadioControllerTests.groovy:144)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="Marcos-Armando.local" id="7" name="EstadioTests" package="prode" tests="1" time="0.111" timestamp="2013-07-29T23:40:26">
+      <properties />
+
+      <testcase classname="prode.EstadioTests" name="testSomething" time="0.04">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at prode.EstadioTests.testSomething(EstadioTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="5" hostname="Marcos-Armando.local" id="8" name="FechaControllerTests" package="prode" tests="8" time="0.604" timestamp="2013-07-29T23:40:26">
+      <properties />
+
+      <testcase classname="prode.FechaControllerTests" name="testIndex" time="0.142" />
+
+      <testcase classname="prode.FechaControllerTests" name="testList" time="0.04" />
+
+      <testcase classname="prode.FechaControllerTests" name="testCreate" time="0.049" />
+
+      <testcase classname="prode.FechaControllerTests" name="testSave" time="0.047">
+          <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/fecha/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@633b2b95&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/fecha/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@633b2b95
+
+	at prode.FechaControllerTests.testSave(FechaControllerTests.groovy:48)
+</failure>
+
+      </testcase>
+
+      <testcase classname="prode.FechaControllerTests" name="testShow" time="0.067">
+          <failure message="Assertion failed: &#xa;&#xa;assert fecha.save() != null&#xa;       |     |      |&#xa;       |     null   false&#xa;       prode.Fecha@4dcc678a (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert fecha.save() != null
+       |     |      |
+       |     null   false
+       prode.Fecha@4dcc678a (toString() == null)
+
+	at prode.FechaControllerTests.testShow(FechaControllerTests.groovy:62)
+</failure>
+
+      </testcase>
+
+      <testcase classname="prode.FechaControllerTests" name="testEdit" time="0.055">
+          <failure message="Assertion failed: &#xa;&#xa;assert fecha.save() != null&#xa;       |     |      |&#xa;       |     null   false&#xa;       prode.Fecha@72c25346 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert fecha.save() != null
+       |     |      |
+       |     null   false
+       prode.Fecha@72c25346 (toString() == null)
+
+	at prode.FechaControllerTests.testEdit(FechaControllerTests.groovy:80)
+</failure>
+
+      </testcase>
+
+      <testcase classname="prode.FechaControllerTests" name="testUpdate" time="0.053">
+          <failure message="Assertion failed: &#xa;&#xa;assert fecha.save() != null&#xa;       |     |      |&#xa;       |     null   false&#xa;       prode.Fecha@528095c6 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert fecha.save() != null
+       |     |      |
+       |     null   false
+       prode.Fecha@528095c6 (toString() == null)
+
+	at prode.FechaControllerTests.testUpdate(FechaControllerTests.groovy:100)
+</failure>
+
+      </testcase>
+
+      <testcase classname="prode.FechaControllerTests" name="testDelete" time="0.089">
+          <failure message="Assertion failed: &#xa;&#xa;assert fecha.save() != null&#xa;       |     |      |&#xa;       |     null   false&#xa;       prode.Fecha@3ebbe4b0 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert fecha.save() != null
+       |     |      |
+       |     null   false
+       prode.Fecha@3ebbe4b0 (toString() == null)
+
+	at prode.FechaControllerTests.testDelete(FechaControllerTests.groovy:144)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="Marcos-Armando.local" id="9" name="FechaTests" package="prode" tests="1" time="0.095" timestamp="2013-07-29T23:40:26">
+      <properties />
+
+      <testcase classname="prode.FechaTests" name="testSomething" time="0.035">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at prode.FechaTests.testSomething(FechaTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="5" hostname="Marcos-Armando.local" id="10" name="PartidoControllerTests" package="prode" tests="8" time="0.659" timestamp="2013-07-29T23:40:27">
+      <properties />
+
+      <testcase classname="prode.PartidoControllerTests" name="testIndex" time="0.131" />
+
+      <testcase classname="prode.PartidoControllerTests" name="testList" time="0.047" />
+
+      <testcase classname="prode.PartidoControllerTests" name="testCreate" time="0.072" />
+
+      <testcase classname="prode.PartidoControllerTests" name="testSave" time="0.056">
+          <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/partido/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@bdc22ad&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/partido/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@bdc22ad
+
+	at prode.PartidoControllerTests.testSave(PartidoControllerTests.groovy:48)
+</failure>
+
+      </testcase>
+
+      <testcase classname="prode.PartidoControllerTests" name="testShow" time="0.055">
+          <failure message="Assertion failed: &#xa;&#xa;assert partido.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       prode.Partido@35e7f0b (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert partido.save() != null
+       |       |      |
+       |       null   false
+       prode.Partido@35e7f0b (toString() == null)
+
+	at prode.PartidoControllerTests.testShow(PartidoControllerTests.groovy:62)
+</failure>
+
+      </testcase>
+
+      <testcase classname="prode.PartidoControllerTests" name="testEdit" time="0.074">
+          <failure message="Assertion failed: &#xa;&#xa;assert partido.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       prode.Partido@41ffba4f (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert partido.save() != null
+       |       |      |
+       |       null   false
+       prode.Partido@41ffba4f (toString() == null)
+
+	at prode.PartidoControllerTests.testEdit(PartidoControllerTests.groovy:80)
+</failure>
+
+      </testcase>
+
+      <testcase classname="prode.PartidoControllerTests" name="testUpdate" time="0.056">
+          <failure message="Assertion failed: &#xa;&#xa;assert partido.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       prode.Partido@11f7ef62 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert partido.save() != null
+       |       |      |
+       |       null   false
+       prode.Partido@11f7ef62 (toString() == null)
+
+	at prode.PartidoControllerTests.testUpdate(PartidoControllerTests.groovy:100)
+</failure>
+
+      </testcase>
+
+      <testcase classname="prode.PartidoControllerTests" name="testDelete" time="0.081">
+          <failure message="Assertion failed: &#xa;&#xa;assert partido.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       prode.Partido@46573206 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert partido.save() != null
+       |       |      |
+       |       null   false
+       prode.Partido@46573206 (toString() == null)
+
+	at prode.PartidoControllerTests.testDelete(PartidoControllerTests.groovy:144)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="Marcos-Armando.local" id="11" name="PartidoTests" package="prode" tests="1" time="0.114" timestamp="2013-07-29T23:40:27">
+      <properties />
+
+      <testcase classname="prode.PartidoTests" name="testSomething" time="0.053">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at prode.PartidoTests.testSomething(PartidoTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="1" failures="5" hostname="Marcos-Armando.local" id="12" name="PuntosFechaUsuarioControllerTests" package="prode" tests="8" time="0.666" timestamp="2013-07-29T23:40:27">
+      <properties />
+
+      <testcase classname="prode.PuntosFechaUsuarioControllerTests" name="testIndex" time="0.151" />
+
+      <testcase classname="prode.PuntosFechaUsuarioControllerTests" name="testList" time="0.131">
+          <error message="No signature of method: prode.Fecha.get() is applicable for argument types: () values: []&#xa;Possible solutions: get(java.io.Serializable), getId(), grep(), grep(java.lang.Object), getAt(java.lang.String), wait()" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: prode.Fecha.get() is applicable for argument types: () values: []
+Possible solutions: get(java.io.Serializable), getId(), grep(), grep(java.lang.Object), getAt(java.lang.String), wait()
+	at prode.PuntosFechaUsuarioController.list(PuntosFechaUsuarioController.groovy:20)
+	at prode.PuntosFechaUsuarioControllerTests.testList(PuntosFechaUsuarioControllerTests.groovy:25)
+</error>
+
+      </testcase>
+
+      <testcase classname="prode.PuntosFechaUsuarioControllerTests" name="testCreate" time="0.046" />
+
+      <testcase classname="prode.PuntosFechaUsuarioControllerTests" name="testSave" time="0.058">
+          <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/puntosFechaUsuario/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@40568a8&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/puntosFechaUsuario/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@40568a8
+
+	at prode.PuntosFechaUsuarioControllerTests.testSave(PuntosFechaUsuarioControllerTests.groovy:48)
+</failure>
+
+      </testcase>
+
+      <testcase classname="prode.PuntosFechaUsuarioControllerTests" name="testShow" time="0.076">
+          <failure message="Assertion failed: &#xa;&#xa;assert puntosFechaUsuario.save() != null&#xa;       |                  |      |&#xa;       |                  null   false&#xa;       prode.PuntosFechaUsuario : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert puntosFechaUsuario.save() != null
+       |                  |      |
+       |                  null   false
+       prode.PuntosFechaUsuario : (unsaved)
+
+	at prode.PuntosFechaUsuarioControllerTests.testShow(PuntosFechaUsuarioControllerTests.groovy:62)
+</failure>
+
+      </testcase>
+
+      <testcase classname="prode.PuntosFechaUsuarioControllerTests" name="testEdit" time="0.043">
+          <failure message="Assertion failed: &#xa;&#xa;assert puntosFechaUsuario.save() != null&#xa;       |                  |      |&#xa;       |                  null   false&#xa;       prode.PuntosFechaUsuario : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert puntosFechaUsuario.save() != null
+       |                  |      |
+       |                  null   false
+       prode.PuntosFechaUsuario : (unsaved)
+
+	at prode.PuntosFechaUsuarioControllerTests.testEdit(PuntosFechaUsuarioControllerTests.groovy:80)
+</failure>
+
+      </testcase>
+
+      <testcase classname="prode.PuntosFechaUsuarioControllerTests" name="testUpdate" time="0.055">
+          <failure message="Assertion failed: &#xa;&#xa;assert puntosFechaUsuario.save() != null&#xa;       |                  |      |&#xa;       |                  null   false&#xa;       prode.PuntosFechaUsuario : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert puntosFechaUsuario.save() != null
+       |                  |      |
+       |                  null   false
+       prode.PuntosFechaUsuario : (unsaved)
+
+	at prode.PuntosFechaUsuarioControllerTests.testUpdate(PuntosFechaUsuarioControllerTests.groovy:100)
+</failure>
+
+      </testcase>
+
+      <testcase classname="prode.PuntosFechaUsuarioControllerTests" name="testDelete" time="0.042">
+          <failure message="Assertion failed: &#xa;&#xa;assert puntosFechaUsuario.save() != null&#xa;       |                  |      |&#xa;       |                  null   false&#xa;       prode.PuntosFechaUsuario : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert puntosFechaUsuario.save() != null
+       |                  |      |
+       |                  null   false
+       prode.PuntosFechaUsuario : (unsaved)
+
+	at prode.PuntosFechaUsuarioControllerTests.testDelete(PuntosFechaUsuarioControllerTests.groovy:144)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="Marcos-Armando.local" id="13" name="PuntosFechaUsuarioTests" package="prode" tests="1" time="0.094" timestamp="2013-07-29T23:40:28">
+      <properties />
+
+      <testcase classname="prode.PuntosFechaUsuarioTests" name="testSomething" time="0.045">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at prode.PuntosFechaUsuarioTests.testSomething(PuntosFechaUsuarioTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="Marcos-Armando.local" id="14" name="ResultadoTests" package="prode" tests="1" time="0.155" timestamp="2013-07-29T23:40:28">
+      <properties />
+
+      <testcase classname="prode.ResultadoTests" name="testSomething" time="0.058">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at prode.ResultadoTests.testSomething(ResultadoTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="5" hostname="Marcos-Armando.local" id="15" name="RoleControllerTests" package="prode" tests="8" time="0.637" timestamp="2013-07-29T23:40:28">
+      <properties />
+
+      <testcase classname="prode.RoleControllerTests" name="testIndex" time="0.199" />
+
+      <testcase classname="prode.RoleControllerTests" name="testList" time="0.046" />
+
+      <testcase classname="prode.RoleControllerTests" name="testCreate" time="0.059" />
+
+      <testcase classname="prode.RoleControllerTests" name="testSave" time="0.056">
+          <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/role/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@4ab24098&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/role/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@4ab24098
+
+	at prode.RoleControllerTests.testSave(RoleControllerTests.groovy:48)
+</failure>
+
+      </testcase>
+
+      <testcase classname="prode.RoleControllerTests" name="testShow" time="0.043">
+          <failure message="Assertion failed: &#xa;&#xa;assert role.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       prode.Role@4bbc7636 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert role.save() != null
+       |    |      |
+       |    null   false
+       prode.Role@4bbc7636 (toString() == null)
+
+	at prode.RoleControllerTests.testShow(RoleControllerTests.groovy:62)
+</failure>
+
+      </testcase>
+
+      <testcase classname="prode.RoleControllerTests" name="testEdit" time="0.044">
+          <failure message="Assertion failed: &#xa;&#xa;assert role.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       prode.Role@11def881 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert role.save() != null
+       |    |      |
+       |    null   false
+       prode.Role@11def881 (toString() == null)
+
+	at prode.RoleControllerTests.testEdit(RoleControllerTests.groovy:80)
+</failure>
+
+      </testcase>
+
+      <testcase classname="prode.RoleControllerTests" name="testUpdate" time="0.047">
+          <failure message="Assertion failed: &#xa;&#xa;assert role.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       prode.Role@3e019dc4 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert role.save() != null
+       |    |      |
+       |    null   false
+       prode.Role@3e019dc4 (toString() == null)
+
+	at prode.RoleControllerTests.testUpdate(RoleControllerTests.groovy:100)
+</failure>
+
+      </testcase>
+
+      <testcase classname="prode.RoleControllerTests" name="testDelete" time="0.065">
+          <failure message="Assertion failed: &#xa;&#xa;assert role.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       prode.Role@57b324dd (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert role.save() != null
+       |    |      |
+       |    null   false
+       prode.Role@57b324dd (toString() == null)
+
+	at prode.RoleControllerTests.testDelete(RoleControllerTests.groovy:144)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="5" hostname="Marcos-Armando.local" id="16" name="UserControllerTests" package="prode" tests="8" time="0.546" timestamp="2013-07-29T23:40:29">
+      <properties />
+
+      <testcase classname="prode.UserControllerTests" name="testIndex" time="0.173" />
+
+      <testcase classname="prode.UserControllerTests" name="testList" time="0.039" />
+
+      <testcase classname="prode.UserControllerTests" name="testCreate" time="0.067" />
+
+      <testcase classname="prode.UserControllerTests" name="testSave" time="0.059">
+          <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/user/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@6a969e08&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/user/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@6a969e08
+
+	at prode.UserControllerTests.testSave(UserControllerTests.groovy:48)
+</failure>
+
+      </testcase>
+
+      <testcase classname="prode.UserControllerTests" name="testShow" time="0.056">
+          <failure message="Assertion failed: &#xa;&#xa;assert user.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       prode.User@18ff8acd (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       prode.User@18ff8acd (toString() == null)
+
+	at prode.UserControllerTests.testShow(UserControllerTests.groovy:62)
+</failure>
+
+      </testcase>
+
+      <testcase classname="prode.UserControllerTests" name="testEdit" time="0.042">
+          <failure message="Assertion failed: &#xa;&#xa;assert user.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       prode.User@35203c7f (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       prode.User@35203c7f (toString() == null)
+
+	at prode.UserControllerTests.testEdit(UserControllerTests.groovy:80)
+</failure>
+
+      </testcase>
+
+      <testcase classname="prode.UserControllerTests" name="testUpdate" time="0.045">
+          <failure message="Assertion failed: &#xa;&#xa;assert user.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       prode.User@7b0aab7d (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       prode.User@7b0aab7d (toString() == null)
+
+	at prode.UserControllerTests.testUpdate(UserControllerTests.groovy:100)
+</failure>
+
+      </testcase>
+
+      <testcase classname="prode.UserControllerTests" name="testDelete" time="0.051">
+          <failure message="Assertion failed: &#xa;&#xa;assert user.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       prode.User@1df07586 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       prode.User@1df07586 (toString() == null)
+
+	at prode.UserControllerTests.testDelete(UserControllerTests.groovy:144)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

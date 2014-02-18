@@ -1,0 +1,116 @@
+Testsuite: prode.EstadioControllerTests
+Tests run: 8, Failures: 5, Errors: 0, Time elapsed: 0,794 sec
+------------- Standard Output ---------------
+--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+------------- ---------------- ---------------
+
+Testcase: testIndex took 0,228 sec
+Testcase: testList took 0,052 sec
+Testcase: testCreate took 0,081 sec
+Testcase: testSave took 0,069 sec
+	FAILED
+Assertion failed: 
+
+assert response.redirectedUrl == '/estadio/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@60aab59f
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == '/estadio/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@60aab59f
+
+	at prode.EstadioControllerTests.testSave(EstadioControllerTests.groovy:48)
+
+Testcase: testShow took 0,089 sec
+	FAILED
+Assertion failed: 
+
+assert estadio.save() != null
+       |       |      |
+       |       null   false
+       prode.Estadio@7b5321f0 (toString() == null)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert estadio.save() != null
+       |       |      |
+       |       null   false
+       prode.Estadio@7b5321f0 (toString() == null)
+
+	at prode.EstadioControllerTests.testShow(EstadioControllerTests.groovy:62)
+
+Testcase: testEdit took 0,088 sec
+	FAILED
+Assertion failed: 
+
+assert estadio.save() != null
+       |       |      |
+       |       null   false
+       prode.Estadio@5790d004 (toString() == null)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert estadio.save() != null
+       |       |      |
+       |       null   false
+       prode.Estadio@5790d004 (toString() == null)
+
+	at prode.EstadioControllerTests.testEdit(EstadioControllerTests.groovy:80)
+
+Testcase: testUpdate took 0,064 sec
+	FAILED
+Assertion failed: 
+
+assert estadio.save() != null
+       |       |      |
+       |       null   false
+       prode.Estadio@b6a6597 (toString() == null)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert estadio.save() != null
+       |       |      |
+       |       null   false
+       prode.Estadio@b6a6597 (toString() == null)
+
+	at prode.EstadioControllerTests.testUpdate(EstadioControllerTests.groovy:100)
+
+Testcase: testDelete took 0,06 sec
+	FAILED
+Assertion failed: 
+
+assert estadio.save() != null
+       |       |      |
+       |       null   false
+       prode.Estadio@48778a5d (toString() == null)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert estadio.save() != null
+       |       |      |
+       |       null   false
+       prode.Estadio@48778a5d (toString() == null)
+
+	at prode.EstadioControllerTests.testDelete(EstadioControllerTests.groovy:144)
+

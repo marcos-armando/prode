@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="5" hostname="Marcos-Armando.local" name="prode.UserControllerTests" tests="8" time="0.546" timestamp="2013-07-29T23:40:29">
+  <properties />
+  <testcase classname="prode.UserControllerTests" name="testIndex" time="0.173" />
+  <testcase classname="prode.UserControllerTests" name="testList" time="0.039" />
+  <testcase classname="prode.UserControllerTests" name="testCreate" time="0.067" />
+  <testcase classname="prode.UserControllerTests" name="testSave" time="0.059">
+    <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/user/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@6a969e08&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/user/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@6a969e08
+
+	at prode.UserControllerTests.testSave(UserControllerTests.groovy:48)
+</failure>
+  </testcase>
+  <testcase classname="prode.UserControllerTests" name="testShow" time="0.056">
+    <failure message="Assertion failed: &#xa;&#xa;assert user.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       prode.User@18ff8acd (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       prode.User@18ff8acd (toString() == null)
+
+	at prode.UserControllerTests.testShow(UserControllerTests.groovy:62)
+</failure>
+  </testcase>
+  <testcase classname="prode.UserControllerTests" name="testEdit" time="0.042">
+    <failure message="Assertion failed: &#xa;&#xa;assert user.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       prode.User@35203c7f (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       prode.User@35203c7f (toString() == null)
+
+	at prode.UserControllerTests.testEdit(UserControllerTests.groovy:80)
+</failure>
+  </testcase>
+  <testcase classname="prode.UserControllerTests" name="testUpdate" time="0.045">
+    <failure message="Assertion failed: &#xa;&#xa;assert user.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       prode.User@7b0aab7d (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       prode.User@7b0aab7d (toString() == null)
+
+	at prode.UserControllerTests.testUpdate(UserControllerTests.groovy:100)
+</failure>
+  </testcase>
+  <testcase classname="prode.UserControllerTests" name="testDelete" time="0.051">
+    <failure message="Assertion failed: &#xa;&#xa;assert user.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       prode.User@1df07586 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       prode.User@1df07586 (toString() == null)
+
+	at prode.UserControllerTests.testDelete(UserControllerTests.groovy:144)
+</failure>
+  </testcase>
+  <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+  <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+</testsuite>

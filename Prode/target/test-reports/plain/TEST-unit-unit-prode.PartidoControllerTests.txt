@@ -1,0 +1,116 @@
+Testsuite: prode.PartidoControllerTests
+Tests run: 8, Failures: 5, Errors: 0, Time elapsed: 0,659 sec
+------------- Standard Output ---------------
+--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+------------- ---------------- ---------------
+
+Testcase: testIndex took 0,131 sec
+Testcase: testList took 0,047 sec
+Testcase: testCreate took 0,072 sec
+Testcase: testSave took 0,056 sec
+	FAILED
+Assertion failed: 
+
+assert response.redirectedUrl == '/partido/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@bdc22ad
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == '/partido/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@bdc22ad
+
+	at prode.PartidoControllerTests.testSave(PartidoControllerTests.groovy:48)
+
+Testcase: testShow took 0,054 sec
+	FAILED
+Assertion failed: 
+
+assert partido.save() != null
+       |       |      |
+       |       null   false
+       prode.Partido@35e7f0b (toString() == null)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert partido.save() != null
+       |       |      |
+       |       null   false
+       prode.Partido@35e7f0b (toString() == null)
+
+	at prode.PartidoControllerTests.testShow(PartidoControllerTests.groovy:62)
+
+Testcase: testEdit took 0,074 sec
+	FAILED
+Assertion failed: 
+
+assert partido.save() != null
+       |       |      |
+       |       null   false
+       prode.Partido@41ffba4f (toString() == null)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert partido.save() != null
+       |       |      |
+       |       null   false
+       prode.Partido@41ffba4f (toString() == null)
+
+	at prode.PartidoControllerTests.testEdit(PartidoControllerTests.groovy:80)
+
+Testcase: testUpdate took 0,056 sec
+	FAILED
+Assertion failed: 
+
+assert partido.save() != null
+       |       |      |
+       |       null   false
+       prode.Partido@11f7ef62 (toString() == null)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert partido.save() != null
+       |       |      |
+       |       null   false
+       prode.Partido@11f7ef62 (toString() == null)
+
+	at prode.PartidoControllerTests.testUpdate(PartidoControllerTests.groovy:100)
+
+Testcase: testDelete took 0,081 sec
+	FAILED
+Assertion failed: 
+
+assert partido.save() != null
+       |       |      |
+       |       null   false
+       prode.Partido@46573206 (toString() == null)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert partido.save() != null
+       |       |      |
+       |       null   false
+       prode.Partido@46573206 (toString() == null)
+
+	at prode.PartidoControllerTests.testDelete(PartidoControllerTests.groovy:144)
+

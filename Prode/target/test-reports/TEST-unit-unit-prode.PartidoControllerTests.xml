@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="5" hostname="Marcos-Armando.local" name="prode.PartidoControllerTests" tests="8" time="0.659" timestamp="2013-07-29T23:40:27">
+  <properties />
+  <testcase classname="prode.PartidoControllerTests" name="testIndex" time="0.131" />
+  <testcase classname="prode.PartidoControllerTests" name="testList" time="0.047" />
+  <testcase classname="prode.PartidoControllerTests" name="testCreate" time="0.072" />
+  <testcase classname="prode.PartidoControllerTests" name="testSave" time="0.056">
+    <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/partido/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@bdc22ad&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/partido/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@bdc22ad
+
+	at prode.PartidoControllerTests.testSave(PartidoControllerTests.groovy:48)
+</failure>
+  </testcase>
+  <testcase classname="prode.PartidoControllerTests" name="testShow" time="0.055">
+    <failure message="Assertion failed: &#xa;&#xa;assert partido.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       prode.Partido@35e7f0b (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert partido.save() != null
+       |       |      |
+       |       null   false
+       prode.Partido@35e7f0b (toString() == null)
+
+	at prode.PartidoControllerTests.testShow(PartidoControllerTests.groovy:62)
+</failure>
+  </testcase>
+  <testcase classname="prode.PartidoControllerTests" name="testEdit" time="0.074">
+    <failure message="Assertion failed: &#xa;&#xa;assert partido.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       prode.Partido@41ffba4f (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert partido.save() != null
+       |       |      |
+       |       null   false
+       prode.Partido@41ffba4f (toString() == null)
+
+	at prode.PartidoControllerTests.testEdit(PartidoControllerTests.groovy:80)
+</failure>
+  </testcase>
+  <testcase classname="prode.PartidoControllerTests" name="testUpdate" time="0.056">
+    <failure message="Assertion failed: &#xa;&#xa;assert partido.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       prode.Partido@11f7ef62 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert partido.save() != null
+       |       |      |
+       |       null   false
+       prode.Partido@11f7ef62 (toString() == null)
+
+	at prode.PartidoControllerTests.testUpdate(PartidoControllerTests.groovy:100)
+</failure>
+  </testcase>
+  <testcase classname="prode.PartidoControllerTests" name="testDelete" time="0.081">
+    <failure message="Assertion failed: &#xa;&#xa;assert partido.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       prode.Partido@46573206 (toString() == null)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert partido.save() != null
+       |       |      |
+       |       null   false
+       prode.Partido@46573206 (toString() == null)
+
+	at prode.PartidoControllerTests.testDelete(PartidoControllerTests.groovy:144)
+</failure>
+  </testcase>
+  <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+  <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+</testsuite>

@@ -1,0 +1,2409 @@
+<!DOCTYPE html><html xmlns:lxslt="http://xml.apache.org/xslt" xmlns:stringutils="xalan://org.apache.tools.ant.util.StringUtils">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>
+        Unit Test Results
+     - Failed tests</title>
+<link href="stylesheet.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="report" class="container container_8">
+<div class="grid_6 alpha">
+<div class="grailslogo"></div>
+<h1>
+        Unit Test Results
+     - Failed tests</h1>
+<p class="intro">
+                        Executed
+                        73
+                        tests
+                    
+                        with
+                        one error
+
+                        and
+                        49 failures
+                        .
+                    </p>
+</div>
+<div class="grid_2 omega">
+<nav id="navigationlinks">
+<p>
+<a href="failed.html">
+                    Tests with failure and errors
+                </a>
+</p>
+<p>
+<a href="index.html">
+                    Package summary
+                </a>
+</p>
+<p>
+<a href="all.html">
+                    Show all tests
+                </a>
+</p>
+</nav>
+</div>
+<div class="clear"></div>
+<div class="testsuite error">
+<div class="header">
+<h2>PuntosFechaUsuarioControllerTests</h2>
+<h3>
+                        Executed
+                        8
+                        tests
+                    
+                        with
+                        one error
+
+                        and
+                        5 failures
+                        .
+                    </h3>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testIndex">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testIndex</b>
+</p>
+<p class="summary">Executed in 0.151 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix error grid_8 alpha omega" data-name="testList">
+<div class="grid_3 alpha">
+<p>
+<span class="icon error"></span><b class="testname message error">testList</b>
+</p>
+<p class="summary">Executed in 0.131 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">No signature of method: prode.Fecha.get() is applicable for argument types: () values: []
+Possible solutions: get(java.io.Serializable), getId(), grep(), grep(java.lang.Object), getAt(java.lang.String), wait()</b>
+</p>
+<pre>groovy.lang.MissingMethodException: No signature of method: prode.Fecha.get() is applicable for argument types: () values: []
+Possible solutions: get(java.io.Serializable), getId(), grep(), grep(java.lang.Object), getAt(java.lang.String), wait()
+	at prode.PuntosFechaUsuarioController.list(PuntosFechaUsuarioController.groovy:20)
+	at prode.PuntosFechaUsuarioControllerTests.testList(PuntosFechaUsuarioControllerTests.groovy:25)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testCreate">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testCreate</b>
+</p>
+<p class="summary">Executed in 0.046 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testSave">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testSave</b>
+</p>
+<p class="summary">Executed in 0.058 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert response.redirectedUrl == '/puntosFechaUsuario/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@40568a8
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == '/puntosFechaUsuario/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@40568a8
+
+	at prode.PuntosFechaUsuarioControllerTests.testSave(PuntosFechaUsuarioControllerTests.groovy:48)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testShow">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testShow</b>
+</p>
+<p class="summary">Executed in 0.076 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert puntosFechaUsuario.save() != null
+       |                  |      |
+       |                  null   false
+       prode.PuntosFechaUsuario : (unsaved)
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert puntosFechaUsuario.save() != null
+       |                  |      |
+       |                  null   false
+       prode.PuntosFechaUsuario : (unsaved)
+
+	at prode.PuntosFechaUsuarioControllerTests.testShow(PuntosFechaUsuarioControllerTests.groovy:62)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testEdit">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testEdit</b>
+</p>
+<p class="summary">Executed in 0.043 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert puntosFechaUsuario.save() != null
+       |                  |      |
+       |                  null   false
+       prode.PuntosFechaUsuario : (unsaved)
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert puntosFechaUsuario.save() != null
+       |                  |      |
+       |                  null   false
+       prode.PuntosFechaUsuario : (unsaved)
+
+	at prode.PuntosFechaUsuarioControllerTests.testEdit(PuntosFechaUsuarioControllerTests.groovy:80)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testUpdate">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testUpdate</b>
+</p>
+<p class="summary">Executed in 0.055 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert puntosFechaUsuario.save() != null
+       |                  |      |
+       |                  null   false
+       prode.PuntosFechaUsuario : (unsaved)
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert puntosFechaUsuario.save() != null
+       |                  |      |
+       |                  null   false
+       prode.PuntosFechaUsuario : (unsaved)
+
+	at prode.PuntosFechaUsuarioControllerTests.testUpdate(PuntosFechaUsuarioControllerTests.groovy:100)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testDelete">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testDelete</b>
+</p>
+<p class="summary">Executed in 0.042 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert puntosFechaUsuario.save() != null
+       |                  |      |
+       |                  null   false
+       prode.PuntosFechaUsuario : (unsaved)
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert puntosFechaUsuario.save() != null
+       |                  |      |
+       |                  null   false
+       prode.PuntosFechaUsuario : (unsaved)
+
+	at prode.PuntosFechaUsuarioControllerTests.testDelete(PuntosFechaUsuarioControllerTests.groovy:144)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="clearfix output footer">
+<div class="sysout">
+<h2>Standard output</h2>
+<pre class="stdout">--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+</pre>
+</div>
+<div class="syserr">
+<h2>System error</h2>
+<pre class="syserr">--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testsuite failure">
+<div class="header">
+<h2>CampeonatoControllerTests</h2>
+<h3>
+                        Executed
+                        8
+                        tests
+                    
+                        with
+                        5 failures
+                        .
+                    </h3>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testIndex">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testIndex</b>
+</p>
+<p class="summary">Executed in 0.438 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testList">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testList</b>
+</p>
+<p class="summary">Executed in 0.501 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testCreate">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testCreate</b>
+</p>
+<p class="summary">Executed in 0.157 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testSave">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testSave</b>
+</p>
+<p class="summary">Executed in 0.134 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert response.redirectedUrl == '/campeonato/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@51de6ff8
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == '/campeonato/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@51de6ff8
+
+	at prode.CampeonatoControllerTests.testSave(CampeonatoControllerTests.groovy:48)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testShow">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testShow</b>
+</p>
+<p class="summary">Executed in 0.144 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert campeonato.save() != null
+       |          |      |
+       |          null   false
+       prode.Campeonato@6f479e5f (toString() == null)
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert campeonato.save() != null
+       |          |      |
+       |          null   false
+       prode.Campeonato@6f479e5f (toString() == null)
+
+	at prode.CampeonatoControllerTests.testShow(CampeonatoControllerTests.groovy:62)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testEdit">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testEdit</b>
+</p>
+<p class="summary">Executed in 0.082 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert campeonato.save() != null
+       |          |      |
+       |          null   false
+       prode.Campeonato@246b5488 (toString() == null)
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert campeonato.save() != null
+       |          |      |
+       |          null   false
+       prode.Campeonato@246b5488 (toString() == null)
+
+	at prode.CampeonatoControllerTests.testEdit(CampeonatoControllerTests.groovy:80)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testUpdate">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testUpdate</b>
+</p>
+<p class="summary">Executed in 0.063 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert campeonato.save() != null
+       |          |      |
+       |          null   false
+       prode.Campeonato@2e8f01b8 (toString() == null)
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert campeonato.save() != null
+       |          |      |
+       |          null   false
+       prode.Campeonato@2e8f01b8 (toString() == null)
+
+	at prode.CampeonatoControllerTests.testUpdate(CampeonatoControllerTests.groovy:100)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testDelete">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testDelete</b>
+</p>
+<p class="summary">Executed in 0.083 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert campeonato.save() != null
+       |          |      |
+       |          null   false
+       prode.Campeonato@78e64a7f (toString() == null)
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert campeonato.save() != null
+       |          |      |
+       |          null   false
+       prode.Campeonato@78e64a7f (toString() == null)
+
+	at prode.CampeonatoControllerTests.testDelete(CampeonatoControllerTests.groovy:144)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="clearfix output footer">
+<div class="sysout">
+<h2>Standard output</h2>
+<pre class="stdout">--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+</pre>
+</div>
+<div class="syserr">
+<h2>System error</h2>
+<pre class="syserr">--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testsuite failure">
+<div class="header">
+<h2>EquipoControllerTests</h2>
+<h3>
+                        Executed
+                        8
+                        tests
+                    
+                        with
+                        5 failures
+                        .
+                    </h3>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testIndex">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testIndex</b>
+</p>
+<p class="summary">Executed in 0.2 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testList">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testList</b>
+</p>
+<p class="summary">Executed in 0.053 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testCreate">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testCreate</b>
+</p>
+<p class="summary">Executed in 0.041 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testSave">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testSave</b>
+</p>
+<p class="summary">Executed in 0.057 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert response.redirectedUrl == '/equipo/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@5c9b027d
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == '/equipo/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@5c9b027d
+
+	at prode.EquipoControllerTests.testSave(EquipoControllerTests.groovy:48)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testShow">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testShow</b>
+</p>
+<p class="summary">Executed in 0.059 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert equipo.save() != null
+       |      |      |
+       |      null   false
+       prode.Equipo@36ba117b (toString() == null)
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert equipo.save() != null
+       |      |      |
+       |      null   false
+       prode.Equipo@36ba117b (toString() == null)
+
+	at prode.EquipoControllerTests.testShow(EquipoControllerTests.groovy:62)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testEdit">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testEdit</b>
+</p>
+<p class="summary">Executed in 0.051 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert equipo.save() != null
+       |      |      |
+       |      null   false
+       prode.Equipo@2e6ee035 (toString() == null)
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert equipo.save() != null
+       |      |      |
+       |      null   false
+       prode.Equipo@2e6ee035 (toString() == null)
+
+	at prode.EquipoControllerTests.testEdit(EquipoControllerTests.groovy:80)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testUpdate">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testUpdate</b>
+</p>
+<p class="summary">Executed in 0.068 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert equipo.save() != null
+       |      |      |
+       |      null   false
+       prode.Equipo@68a48d59 (toString() == null)
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert equipo.save() != null
+       |      |      |
+       |      null   false
+       prode.Equipo@68a48d59 (toString() == null)
+
+	at prode.EquipoControllerTests.testUpdate(EquipoControllerTests.groovy:100)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testDelete">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testDelete</b>
+</p>
+<p class="summary">Executed in 0.047 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert equipo.save() != null
+       |      |      |
+       |      null   false
+       prode.Equipo@6d994bd3 (toString() == null)
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert equipo.save() != null
+       |      |      |
+       |      null   false
+       prode.Equipo@6d994bd3 (toString() == null)
+
+	at prode.EquipoControllerTests.testDelete(EquipoControllerTests.groovy:144)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="clearfix output footer">
+<div class="sysout">
+<h2>Standard output</h2>
+<pre class="stdout">--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+</pre>
+</div>
+<div class="syserr">
+<h2>System error</h2>
+<pre class="syserr">--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testsuite failure">
+<div class="header">
+<h2>EstadioControllerTests</h2>
+<h3>
+                        Executed
+                        8
+                        tests
+                    
+                        with
+                        5 failures
+                        .
+                    </h3>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testIndex">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testIndex</b>
+</p>
+<p class="summary">Executed in 0.228 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testList">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testList</b>
+</p>
+<p class="summary">Executed in 0.052 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testCreate">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testCreate</b>
+</p>
+<p class="summary">Executed in 0.081 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testSave">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testSave</b>
+</p>
+<p class="summary">Executed in 0.07 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert response.redirectedUrl == '/estadio/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@60aab59f
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == '/estadio/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@60aab59f
+
+	at prode.EstadioControllerTests.testSave(EstadioControllerTests.groovy:48)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testShow">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testShow</b>
+</p>
+<p class="summary">Executed in 0.089 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert estadio.save() != null
+       |       |      |
+       |       null   false
+       prode.Estadio@7b5321f0 (toString() == null)
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert estadio.save() != null
+       |       |      |
+       |       null   false
+       prode.Estadio@7b5321f0 (toString() == null)
+
+	at prode.EstadioControllerTests.testShow(EstadioControllerTests.groovy:62)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testEdit">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testEdit</b>
+</p>
+<p class="summary">Executed in 0.088 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert estadio.save() != null
+       |       |      |
+       |       null   false
+       prode.Estadio@5790d004 (toString() == null)
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert estadio.save() != null
+       |       |      |
+       |       null   false
+       prode.Estadio@5790d004 (toString() == null)
+
+	at prode.EstadioControllerTests.testEdit(EstadioControllerTests.groovy:80)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testUpdate">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testUpdate</b>
+</p>
+<p class="summary">Executed in 0.064 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert estadio.save() != null
+       |       |      |
+       |       null   false
+       prode.Estadio@b6a6597 (toString() == null)
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert estadio.save() != null
+       |       |      |
+       |       null   false
+       prode.Estadio@b6a6597 (toString() == null)
+
+	at prode.EstadioControllerTests.testUpdate(EstadioControllerTests.groovy:100)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testDelete">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testDelete</b>
+</p>
+<p class="summary">Executed in 0.06 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert estadio.save() != null
+       |       |      |
+       |       null   false
+       prode.Estadio@48778a5d (toString() == null)
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert estadio.save() != null
+       |       |      |
+       |       null   false
+       prode.Estadio@48778a5d (toString() == null)
+
+	at prode.EstadioControllerTests.testDelete(EstadioControllerTests.groovy:144)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="clearfix output footer">
+<div class="sysout">
+<h2>Standard output</h2>
+<pre class="stdout">--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+</pre>
+</div>
+<div class="syserr">
+<h2>System error</h2>
+<pre class="syserr">--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testsuite failure">
+<div class="header">
+<h2>FechaControllerTests</h2>
+<h3>
+                        Executed
+                        8
+                        tests
+                    
+                        with
+                        5 failures
+                        .
+                    </h3>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testIndex">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testIndex</b>
+</p>
+<p class="summary">Executed in 0.142 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testList">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testList</b>
+</p>
+<p class="summary">Executed in 0.04 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testCreate">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testCreate</b>
+</p>
+<p class="summary">Executed in 0.049 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testSave">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testSave</b>
+</p>
+<p class="summary">Executed in 0.047 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert response.redirectedUrl == '/fecha/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@633b2b95
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == '/fecha/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@633b2b95
+
+	at prode.FechaControllerTests.testSave(FechaControllerTests.groovy:48)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testShow">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testShow</b>
+</p>
+<p class="summary">Executed in 0.067 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert fecha.save() != null
+       |     |      |
+       |     null   false
+       prode.Fecha@4dcc678a (toString() == null)
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert fecha.save() != null
+       |     |      |
+       |     null   false
+       prode.Fecha@4dcc678a (toString() == null)
+
+	at prode.FechaControllerTests.testShow(FechaControllerTests.groovy:62)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testEdit">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testEdit</b>
+</p>
+<p class="summary">Executed in 0.055 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert fecha.save() != null
+       |     |      |
+       |     null   false
+       prode.Fecha@72c25346 (toString() == null)
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert fecha.save() != null
+       |     |      |
+       |     null   false
+       prode.Fecha@72c25346 (toString() == null)
+
+	at prode.FechaControllerTests.testEdit(FechaControllerTests.groovy:80)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testUpdate">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testUpdate</b>
+</p>
+<p class="summary">Executed in 0.053 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert fecha.save() != null
+       |     |      |
+       |     null   false
+       prode.Fecha@528095c6 (toString() == null)
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert fecha.save() != null
+       |     |      |
+       |     null   false
+       prode.Fecha@528095c6 (toString() == null)
+
+	at prode.FechaControllerTests.testUpdate(FechaControllerTests.groovy:100)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testDelete">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testDelete</b>
+</p>
+<p class="summary">Executed in 0.089 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert fecha.save() != null
+       |     |      |
+       |     null   false
+       prode.Fecha@3ebbe4b0 (toString() == null)
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert fecha.save() != null
+       |     |      |
+       |     null   false
+       prode.Fecha@3ebbe4b0 (toString() == null)
+
+	at prode.FechaControllerTests.testDelete(FechaControllerTests.groovy:144)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="clearfix output footer">
+<div class="sysout">
+<h2>Standard output</h2>
+<pre class="stdout">--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+</pre>
+</div>
+<div class="syserr">
+<h2>System error</h2>
+<pre class="syserr">--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testsuite failure">
+<div class="header">
+<h2>PartidoControllerTests</h2>
+<h3>
+                        Executed
+                        8
+                        tests
+                    
+                        with
+                        5 failures
+                        .
+                    </h3>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testIndex">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testIndex</b>
+</p>
+<p class="summary">Executed in 0.131 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testList">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testList</b>
+</p>
+<p class="summary">Executed in 0.047 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testCreate">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testCreate</b>
+</p>
+<p class="summary">Executed in 0.072 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testSave">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testSave</b>
+</p>
+<p class="summary">Executed in 0.056 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert response.redirectedUrl == '/partido/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@bdc22ad
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == '/partido/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@bdc22ad
+
+	at prode.PartidoControllerTests.testSave(PartidoControllerTests.groovy:48)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testShow">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testShow</b>
+</p>
+<p class="summary">Executed in 0.055 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert partido.save() != null
+       |       |      |
+       |       null   false
+       prode.Partido@35e7f0b (toString() == null)
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert partido.save() != null
+       |       |      |
+       |       null   false
+       prode.Partido@35e7f0b (toString() == null)
+
+	at prode.PartidoControllerTests.testShow(PartidoControllerTests.groovy:62)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testEdit">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testEdit</b>
+</p>
+<p class="summary">Executed in 0.074 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert partido.save() != null
+       |       |      |
+       |       null   false
+       prode.Partido@41ffba4f (toString() == null)
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert partido.save() != null
+       |       |      |
+       |       null   false
+       prode.Partido@41ffba4f (toString() == null)
+
+	at prode.PartidoControllerTests.testEdit(PartidoControllerTests.groovy:80)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testUpdate">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testUpdate</b>
+</p>
+<p class="summary">Executed in 0.056 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert partido.save() != null
+       |       |      |
+       |       null   false
+       prode.Partido@11f7ef62 (toString() == null)
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert partido.save() != null
+       |       |      |
+       |       null   false
+       prode.Partido@11f7ef62 (toString() == null)
+
+	at prode.PartidoControllerTests.testUpdate(PartidoControllerTests.groovy:100)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testDelete">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testDelete</b>
+</p>
+<p class="summary">Executed in 0.081 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert partido.save() != null
+       |       |      |
+       |       null   false
+       prode.Partido@46573206 (toString() == null)
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert partido.save() != null
+       |       |      |
+       |       null   false
+       prode.Partido@46573206 (toString() == null)
+
+	at prode.PartidoControllerTests.testDelete(PartidoControllerTests.groovy:144)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="clearfix output footer">
+<div class="sysout">
+<h2>Standard output</h2>
+<pre class="stdout">--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+</pre>
+</div>
+<div class="syserr">
+<h2>System error</h2>
+<pre class="syserr">--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testsuite failure">
+<div class="header">
+<h2>RoleControllerTests</h2>
+<h3>
+                        Executed
+                        8
+                        tests
+                    
+                        with
+                        5 failures
+                        .
+                    </h3>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testIndex">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testIndex</b>
+</p>
+<p class="summary">Executed in 0.199 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testList">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testList</b>
+</p>
+<p class="summary">Executed in 0.046 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testCreate">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testCreate</b>
+</p>
+<p class="summary">Executed in 0.059 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testSave">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testSave</b>
+</p>
+<p class="summary">Executed in 0.056 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert response.redirectedUrl == '/role/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@4ab24098
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == '/role/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@4ab24098
+
+	at prode.RoleControllerTests.testSave(RoleControllerTests.groovy:48)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testShow">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testShow</b>
+</p>
+<p class="summary">Executed in 0.043 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert role.save() != null
+       |    |      |
+       |    null   false
+       prode.Role@4bbc7636 (toString() == null)
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert role.save() != null
+       |    |      |
+       |    null   false
+       prode.Role@4bbc7636 (toString() == null)
+
+	at prode.RoleControllerTests.testShow(RoleControllerTests.groovy:62)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testEdit">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testEdit</b>
+</p>
+<p class="summary">Executed in 0.044 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert role.save() != null
+       |    |      |
+       |    null   false
+       prode.Role@11def881 (toString() == null)
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert role.save() != null
+       |    |      |
+       |    null   false
+       prode.Role@11def881 (toString() == null)
+
+	at prode.RoleControllerTests.testEdit(RoleControllerTests.groovy:80)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testUpdate">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testUpdate</b>
+</p>
+<p class="summary">Executed in 0.047 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert role.save() != null
+       |    |      |
+       |    null   false
+       prode.Role@3e019dc4 (toString() == null)
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert role.save() != null
+       |    |      |
+       |    null   false
+       prode.Role@3e019dc4 (toString() == null)
+
+	at prode.RoleControllerTests.testUpdate(RoleControllerTests.groovy:100)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testDelete">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testDelete</b>
+</p>
+<p class="summary">Executed in 0.065 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert role.save() != null
+       |    |      |
+       |    null   false
+       prode.Role@57b324dd (toString() == null)
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert role.save() != null
+       |    |      |
+       |    null   false
+       prode.Role@57b324dd (toString() == null)
+
+	at prode.RoleControllerTests.testDelete(RoleControllerTests.groovy:144)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="clearfix output footer">
+<div class="sysout">
+<h2>Standard output</h2>
+<pre class="stdout">--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+</pre>
+</div>
+<div class="syserr">
+<h2>System error</h2>
+<pre class="syserr">--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testsuite failure">
+<div class="header">
+<h2>UserControllerTests</h2>
+<h3>
+                        Executed
+                        8
+                        tests
+                    
+                        with
+                        5 failures
+                        .
+                    </h3>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testIndex">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testIndex</b>
+</p>
+<p class="summary">Executed in 0.173 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testList">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testList</b>
+</p>
+<p class="summary">Executed in 0.039 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="testCreate">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">testCreate</b>
+</p>
+<p class="summary">Executed in 0.067 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testSave">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testSave</b>
+</p>
+<p class="summary">Executed in 0.059 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert response.redirectedUrl == '/user/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@6a969e08
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == '/user/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@6a969e08
+
+	at prode.UserControllerTests.testSave(UserControllerTests.groovy:48)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testShow">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testShow</b>
+</p>
+<p class="summary">Executed in 0.056 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       prode.User@18ff8acd (toString() == null)
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       prode.User@18ff8acd (toString() == null)
+
+	at prode.UserControllerTests.testShow(UserControllerTests.groovy:62)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testEdit">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testEdit</b>
+</p>
+<p class="summary">Executed in 0.042 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       prode.User@35203c7f (toString() == null)
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       prode.User@35203c7f (toString() == null)
+
+	at prode.UserControllerTests.testEdit(UserControllerTests.groovy:80)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testUpdate">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testUpdate</b>
+</p>
+<p class="summary">Executed in 0.045 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       prode.User@7b0aab7d (toString() == null)
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       prode.User@7b0aab7d (toString() == null)
+
+	at prode.UserControllerTests.testUpdate(UserControllerTests.groovy:100)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testDelete">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testDelete</b>
+</p>
+<p class="summary">Executed in 0.051 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       prode.User@1df07586 (toString() == null)
+</b>
+</p>
+<pre>junit.framework.AssertionFailedError: Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       prode.User@1df07586 (toString() == null)
+
+	at prode.UserControllerTests.testDelete(UserControllerTests.groovy:144)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="clearfix output footer">
+<div class="sysout">
+<h2>Standard output</h2>
+<pre class="stdout">--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+</pre>
+</div>
+<div class="syserr">
+<h2>System error</h2>
+<pre class="syserr">--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testsuite failure">
+<div class="header">
+<h2>ApuestaControllerTests</h2>
+<h3>
+                        A single test executed
+                    
+                        with
+                        one failure
+                        .
+                    </h3>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testSomething">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testSomething</b>
+</p>
+<p class="summary">Executed in 1.076 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">junit.framework.AssertionFailedError: Implement me</b>
+</p>
+<pre>junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at prode.ApuestaControllerTests.testSomething(ApuestaControllerTests.groovy:15)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="clearfix output footer">
+<div class="sysout">
+<h2>Standard output</h2>
+<pre class="stdout">--Output from testSomething--
+</pre>
+</div>
+<div class="syserr">
+<h2>System error</h2>
+<pre class="syserr">--Output from testSomething--
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testsuite failure">
+<div class="header">
+<h2>ApuestaTests</h2>
+<h3>
+                        A single test executed
+                    
+                        with
+                        one failure
+                        .
+                    </h3>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testSomething">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testSomething</b>
+</p>
+<p class="summary">Executed in 0.487 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">junit.framework.AssertionFailedError: Implement me</b>
+</p>
+<pre>junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at prode.ApuestaTests.testSomething(ApuestaTests.groovy:15)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="clearfix output footer">
+<div class="sysout">
+<h2>Standard output</h2>
+<pre class="stdout">--Output from testSomething--
+</pre>
+</div>
+<div class="syserr">
+<h2>System error</h2>
+<pre class="syserr">--Output from testSomething--
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testsuite failure">
+<div class="header">
+<h2>CampeonatoTests</h2>
+<h3>
+                        A single test executed
+                    
+                        with
+                        one failure
+                        .
+                    </h3>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testSomething">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testSomething</b>
+</p>
+<p class="summary">Executed in 0.034 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">junit.framework.AssertionFailedError: Implement me</b>
+</p>
+<pre>junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at prode.CampeonatoTests.testSomething(CampeonatoTests.groovy:15)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="clearfix output footer">
+<div class="sysout">
+<h2>Standard output</h2>
+<pre class="stdout">--Output from testSomething--
+</pre>
+</div>
+<div class="syserr">
+<h2>System error</h2>
+<pre class="syserr">--Output from testSomething--
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testsuite failure">
+<div class="header">
+<h2>EquipoTests</h2>
+<h3>
+                        A single test executed
+                    
+                        with
+                        one failure
+                        .
+                    </h3>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testSomething">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testSomething</b>
+</p>
+<p class="summary">Executed in 0.039 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">junit.framework.AssertionFailedError: Implement me</b>
+</p>
+<pre>junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at prode.EquipoTests.testSomething(EquipoTests.groovy:15)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="clearfix output footer">
+<div class="sysout">
+<h2>Standard output</h2>
+<pre class="stdout">--Output from testSomething--
+</pre>
+</div>
+<div class="syserr">
+<h2>System error</h2>
+<pre class="syserr">--Output from testSomething--
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testsuite failure">
+<div class="header">
+<h2>EstadioTests</h2>
+<h3>
+                        A single test executed
+                    
+                        with
+                        one failure
+                        .
+                    </h3>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testSomething">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testSomething</b>
+</p>
+<p class="summary">Executed in 0.04 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">junit.framework.AssertionFailedError: Implement me</b>
+</p>
+<pre>junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at prode.EstadioTests.testSomething(EstadioTests.groovy:15)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="clearfix output footer">
+<div class="sysout">
+<h2>Standard output</h2>
+<pre class="stdout">--Output from testSomething--
+</pre>
+</div>
+<div class="syserr">
+<h2>System error</h2>
+<pre class="syserr">--Output from testSomething--
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testsuite failure">
+<div class="header">
+<h2>FechaTests</h2>
+<h3>
+                        A single test executed
+                    
+                        with
+                        one failure
+                        .
+                    </h3>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testSomething">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testSomething</b>
+</p>
+<p class="summary">Executed in 0.035 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">junit.framework.AssertionFailedError: Implement me</b>
+</p>
+<pre>junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at prode.FechaTests.testSomething(FechaTests.groovy:15)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="clearfix output footer">
+<div class="sysout">
+<h2>Standard output</h2>
+<pre class="stdout">--Output from testSomething--
+</pre>
+</div>
+<div class="syserr">
+<h2>System error</h2>
+<pre class="syserr">--Output from testSomething--
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testsuite failure">
+<div class="header">
+<h2>PartidoTests</h2>
+<h3>
+                        A single test executed
+                    
+                        with
+                        one failure
+                        .
+                    </h3>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testSomething">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testSomething</b>
+</p>
+<p class="summary">Executed in 0.053 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">junit.framework.AssertionFailedError: Implement me</b>
+</p>
+<pre>junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at prode.PartidoTests.testSomething(PartidoTests.groovy:15)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="clearfix output footer">
+<div class="sysout">
+<h2>Standard output</h2>
+<pre class="stdout">--Output from testSomething--
+</pre>
+</div>
+<div class="syserr">
+<h2>System error</h2>
+<pre class="syserr">--Output from testSomething--
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testsuite failure">
+<div class="header">
+<h2>PuntosFechaUsuarioTests</h2>
+<h3>
+                        A single test executed
+                    
+                        with
+                        one failure
+                        .
+                    </h3>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testSomething">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testSomething</b>
+</p>
+<p class="summary">Executed in 0.045 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">junit.framework.AssertionFailedError: Implement me</b>
+</p>
+<pre>junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at prode.PuntosFechaUsuarioTests.testSomething(PuntosFechaUsuarioTests.groovy:15)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="clearfix output footer">
+<div class="sysout">
+<h2>Standard output</h2>
+<pre class="stdout">--Output from testSomething--
+</pre>
+</div>
+<div class="syserr">
+<h2>System error</h2>
+<pre class="syserr">--Output from testSomething--
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="testsuite failure">
+<div class="header">
+<h2>ResultadoTests</h2>
+<h3>
+                        A single test executed
+                    
+                        with
+                        one failure
+                        .
+                    </h3>
+</div>
+<div class="testcase clearfix failure grid_8 alpha omega" data-name="testSomething">
+<div class="grid_3 alpha">
+<p>
+<span class="icon failure"></span><b class="testname message failure">testSomething</b>
+</p>
+<p class="summary">Executed in 0.058 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo">
+<div class="details">
+<p>
+<b class="message">junit.framework.AssertionFailedError: Implement me</b>
+</p>
+<pre>junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at prode.ResultadoTests.testSomething(ResultadoTests.groovy:15)
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="clearfix output footer">
+<div class="sysout">
+<h2>Standard output</h2>
+<pre class="stdout">--Output from testSomething--
+</pre>
+</div>
+<div class="syserr">
+<h2>System error</h2>
+<pre class="syserr">--Output from testSomething--
+</pre>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="clear"></div>
+</div>
+<!--
+            Parses JUnit output and associates it with the corresponding test case
+        -->
+<script language="javascript">
+
+
+/**
+ * The JUnit report format is incredibly stuipd in the
+ * sense that it accumulates output from all test methods
+ * into a single xml node.
+ */
+(function() {
+
+    var outputElements = findOutputElements();
+    for (var i in outputElements) {
+        var outputElement = outputElements[i];
+        var textOutput = outputElement.element.firstChild.nodeValue;
+        var header = outputElement.getHeader();
+        appendTestMethodOutput(textOutput, header);
+    }
+
+    function findOutputElements() {
+        var outputElements = [];
+        var preElements = document.getElementsByTagName("pre");
+        for (var i in preElements) {
+            var preElement = preElements[i];
+            var className = preElement.className || "";
+            if (className.indexOf("stdout") >= 0) {
+                var outputElement = new OutputElement(preElement, "output");
+                outputElements.push(outputElement);
+            } else if (className.indexOf("syserr") >= 0) {
+                var outputElement = new OutputElement(preElement, "error");
+                outputElements.push(outputElement);
+            }
+        }
+
+        return outputElements;
+    }
+
+    function OutputElement(element, type) {
+        this.element = element;
+        this.type = type;
+
+        this.getHeader = function() {
+            if (type === "output") {
+                return "System output";
+            } else if ("error") {
+                return "System error";
+            }
+        }
+    }
+
+    function appendTestMethodOutput(text, header) {
+        var testOutput = new TestMethodOutput(header);
+
+        var lines = text.split(/\r\n|\r|\n/);
+        for (var i in lines) {
+            var line = lines[i];
+            var matches = line.match(/^--Output from (.*)--$/);
+            if (matches !== null && matches.length == 2) {
+                testOutput.flushToDom();
+                testOutput.testName = matches[1];
+            } else {
+                testOutput.addLine(line);
+            }
+        }
+
+        testOutput.flushToDom();
+    }
+
+    function TestMethodOutput(header) {
+        this.header = header;
+        this.testName = undefined;
+        this.buffer = "";
+
+        this.addLine = function(line) {
+            this.buffer += line + "\n";
+        }
+
+        this.flushToDom = function() {
+            if (this.testName !== undefined) {
+                var domNode = getTestcaseElementByName(this.testName);
+                if (domNode !== undefined && trimString(this.buffer).length > 0) {
+                    this.appendTo(domNode);
+                }
+
+                this.reset();
+            }
+        }
+
+        this.appendTo = function(domNode) {
+            var node = document.createElement("div");
+            node.innerHTML = '<p><b class="message">' + header + '</b></p>';
+
+            var preNode = document.createElement("pre");
+            preNode.appendChild(document.createTextNode(this.buffer));
+            node.appendChild(preNode);
+
+            var outputContainer = findElementByTagClassAndParent("div", "outputinfo", domNode);
+            outputContainer.appendChild(node);
+        }
+
+        this.reset = function() {
+            this.methodName = undefined;
+            this.buffer = "";
+        }
+    }
+
+    function getTestcaseElementByName(name) {
+        var divElements = document.getElementsByTagName("div");
+        var elementCount = divElements.length;
+        for (var i=0; i<elementCount; i++) {
+            var el = divElements[i];
+            if (el.getAttribute("data-name") === name) {
+                return el;
+            }
+        }
+    }
+
+    function findElementByTagClassAndParent(tagName, className, parentNode) {
+        var elements = parentNode.getElementsByTagName(tagName);
+        for (var i in elements) {
+            var element = elements[i];
+
+            // Not 100% correct, but good enough here
+            if (element.className !== undefined && element.className.indexOf(className) >= 0) {
+                return element;
+            }
+        }
+    }
+
+    function trimString(str) {
+        return str.replace(/^\s\s*/, '').replace(/\s\s*$/, '');
+    }
+
+})();
+
+        </script>
+</body>
+</html>

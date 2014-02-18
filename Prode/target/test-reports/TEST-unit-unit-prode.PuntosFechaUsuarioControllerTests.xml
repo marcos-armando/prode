@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="5" hostname="Marcos-Armando.local" name="prode.PuntosFechaUsuarioControllerTests" tests="8" time="0.666" timestamp="2013-07-29T23:40:27">
+  <properties />
+  <testcase classname="prode.PuntosFechaUsuarioControllerTests" name="testIndex" time="0.151" />
+  <testcase classname="prode.PuntosFechaUsuarioControllerTests" name="testList" time="0.131">
+    <error message="No signature of method: prode.Fecha.get() is applicable for argument types: () values: []&#xa;Possible solutions: get(java.io.Serializable), getId(), grep(), grep(java.lang.Object), getAt(java.lang.String), wait()" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: prode.Fecha.get() is applicable for argument types: () values: []
+Possible solutions: get(java.io.Serializable), getId(), grep(), grep(java.lang.Object), getAt(java.lang.String), wait()
+	at prode.PuntosFechaUsuarioController.list(PuntosFechaUsuarioController.groovy:20)
+	at prode.PuntosFechaUsuarioControllerTests.testList(PuntosFechaUsuarioControllerTests.groovy:25)
+</error>
+  </testcase>
+  <testcase classname="prode.PuntosFechaUsuarioControllerTests" name="testCreate" time="0.046" />
+  <testcase classname="prode.PuntosFechaUsuarioControllerTests" name="testSave" time="0.058">
+    <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/puntosFechaUsuario/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@40568a8&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/puntosFechaUsuario/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@40568a8
+
+	at prode.PuntosFechaUsuarioControllerTests.testSave(PuntosFechaUsuarioControllerTests.groovy:48)
+</failure>
+  </testcase>
+  <testcase classname="prode.PuntosFechaUsuarioControllerTests" name="testShow" time="0.076">
+    <failure message="Assertion failed: &#xa;&#xa;assert puntosFechaUsuario.save() != null&#xa;       |                  |      |&#xa;       |                  null   false&#xa;       prode.PuntosFechaUsuario : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert puntosFechaUsuario.save() != null
+       |                  |      |
+       |                  null   false
+       prode.PuntosFechaUsuario : (unsaved)
+
+	at prode.PuntosFechaUsuarioControllerTests.testShow(PuntosFechaUsuarioControllerTests.groovy:62)
+</failure>
+  </testcase>
+  <testcase classname="prode.PuntosFechaUsuarioControllerTests" name="testEdit" time="0.043">
+    <failure message="Assertion failed: &#xa;&#xa;assert puntosFechaUsuario.save() != null&#xa;       |                  |      |&#xa;       |                  null   false&#xa;       prode.PuntosFechaUsuario : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert puntosFechaUsuario.save() != null
+       |                  |      |
+       |                  null   false
+       prode.PuntosFechaUsuario : (unsaved)
+
+	at prode.PuntosFechaUsuarioControllerTests.testEdit(PuntosFechaUsuarioControllerTests.groovy:80)
+</failure>
+  </testcase>
+  <testcase classname="prode.PuntosFechaUsuarioControllerTests" name="testUpdate" time="0.055">
+    <failure message="Assertion failed: &#xa;&#xa;assert puntosFechaUsuario.save() != null&#xa;       |                  |      |&#xa;       |                  null   false&#xa;       prode.PuntosFechaUsuario : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert puntosFechaUsuario.save() != null
+       |                  |      |
+       |                  null   false
+       prode.PuntosFechaUsuario : (unsaved)
+
+	at prode.PuntosFechaUsuarioControllerTests.testUpdate(PuntosFechaUsuarioControllerTests.groovy:100)
+</failure>
+  </testcase>
+  <testcase classname="prode.PuntosFechaUsuarioControllerTests" name="testDelete" time="0.042">
+    <failure message="Assertion failed: &#xa;&#xa;assert puntosFechaUsuario.save() != null&#xa;       |                  |      |&#xa;       |                  null   false&#xa;       prode.PuntosFechaUsuario : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert puntosFechaUsuario.save() != null
+       |                  |      |
+       |                  null   false
+       prode.PuntosFechaUsuario : (unsaved)
+
+	at prode.PuntosFechaUsuarioControllerTests.testDelete(PuntosFechaUsuarioControllerTests.groovy:144)
+</failure>
+  </testcase>
+  <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+  <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+</testsuite>
